@@ -1,6 +1,31 @@
+body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    border: none;
+}
+
+.backdrop{
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 0;
+    height: 100vh;
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+
+}
+
 nav{
     background-color: black;
     color: #fff;
+    margin-top: 0;
 }
 
 nav ul{
@@ -20,12 +45,47 @@ nav ul li a{
     display: block;
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 nav ul li:hover{
     background-color: grey;
 }
 
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.flex-container > div{
+    margin-top: 0;
+    padding: 20px;
+}
+
+.flex-container > div > a{
+    text-decoration: none;
+}
+
+.flex-container > div > a > img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.flex-container > div > a > h2 {
+    background-color: #333;
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+}
+
 .central{
     text-align: center;
+}
+
+.central h1{
+    padding: 10px;
+    margin-bottom: 0;
 }
